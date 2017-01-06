@@ -12,6 +12,7 @@
     'use strict';
 
     // Your code here...
+    // START Code corresponding to GreaseMonkey
     var ELEMENT_ID = "feed-main-what_to_watch";
     var TITLE_ID = "branded-page-module-title-text";
 
@@ -50,4 +51,5 @@
             console.error("[YouTube Recommendations Remover] " + ELEMENT_ID + " not found!");
         }
     }
+    // END Code corresponding to GreaseMonkey
 })();

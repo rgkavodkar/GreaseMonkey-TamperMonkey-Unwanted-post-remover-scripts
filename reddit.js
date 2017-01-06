@@ -12,6 +12,8 @@
     'use strict';
 
     // Your code here...
+    // START Code corresponding to GreaseMonkey
     console.log("TamperMonkey: Attempting to remove the Sponsored post");
     document.getElementById("siteTable_organic").setAttribute("style", "display:none");
+    // END Code corresponding to GreaseMonkey
 })();

@@ -12,8 +12,10 @@
     'use strict';
 
     // Your code here...
+    // START Code corresponding to GreaseMonkey
     console.log("Attempting to remove the Job Ads");
     document.getElementById("hireme").setAttribute("style", "display:none");
     console.log("Attempting to remove the newsletter-ads");
     document.getElementById("newsletter-ad").setAttribute("style", "display:none");
+    // END Code corresponding to GreaseMonkey
 })();

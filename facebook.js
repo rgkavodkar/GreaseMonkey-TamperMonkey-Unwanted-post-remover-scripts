@@ -12,5 +12,8 @@
     'use strict';
 
     // Your code here...
+    // START Code corresponding to GreaseMonkey
     document.getElementById("pagelet_ego_pane").setAttribute("style", "display:none");
+    // END Code corresponding to GreaseMonkey
+
 })();
