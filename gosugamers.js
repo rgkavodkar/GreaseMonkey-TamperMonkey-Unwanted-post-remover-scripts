@@ -16,5 +16,7 @@
     console.log("TamperMonkey: Attempting to remove the Sponsored post");
     document.getElementById("horizontal-holder").setAttribute("style","display:none");
     document.getElementById("box-holder").setAttribute("style","display:none");
+    document.getElementById("box-holder-2").setAttribute("style","display:none");
+    document.getElementById("takeover-holder").setAttribute("style","display:none");
     // END Code corresponding to GreaseMonkey
 })();
